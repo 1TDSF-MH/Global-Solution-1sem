@@ -14,10 +14,26 @@
 
 .topo {
     text-align: center;
-    padding-top: 2%;
+    margin-top: 30px;
     
 }
 
+.button_slide{
+    background-color: #7206d6;
+}
+.cor1{  
+  height: 146vh;
+  background-color: rgba(13, 20, 24);
+  color: #d6d5d5;
+}
+
+/*BOTAO ICON*/
+#borderTe{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.292);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /*CARDS*/
 
@@ -39,10 +55,49 @@
 }
 
 .card-body{
-    height: 45vh;
+    height: 56vh;
+    background-color: #3b4044;
 }
 
 .img{
     height: 43vh; 
 
+}
+
+.imagem{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.descricao{
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 90%;  
+}
+
+.child_container{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    display: inline-block;
+    width: 400px;
+    background-color: #3b4044;
+    border: 2px solid #585858;
+    border-radius: 5px;
+}
+
+p a{
+    text-decoration: none;
+    color: rgb(165, 186, 214);
+}
+
+p a:hover{
+    text-decoration: none;
+    color: rgb(83, 114, 155);
+    
 }
