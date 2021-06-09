@@ -128,6 +128,9 @@ topnav-father{
     width: 100%;
     font-size: 15px;
   }
+}
 
-
+/*Texto ao lado do google maps - PG :Como chegar*/
+#textMargin{
+  margin-left: 55vw;
 }
