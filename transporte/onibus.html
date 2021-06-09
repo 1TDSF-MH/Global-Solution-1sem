@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INICIANDO HILORENA.COM</title>
 
-    <link rel="stylesheet" href="../css/comoChegar.css">
+    <link rel="stylesheet" href="../css/onibus.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <style> @import url('../css/geral.css'); </style>
 </head>
@@ -42,49 +42,68 @@
     </div>
 </div>
 
+<div class="topo">
+    <h1>Como chegar em São Paulo</h1>
+    <p>Clique no meio de transporte desejado</p>
+</div>
 
 <!--BOTAO-->
 
 <div id="borderTema">
     <div class="temasButton">
-        <button type="button" class="HashButton button_slide slide_down"> <a id="text" href="aviao.html">AVIÃO</a></button>
-        <button type="button" class="HashButton button_slide slide_left"> <a id="text" href="carro.html">CARRO</a></button>
-        <button type="button" class="HashButton button_slide slide_right"> <a id="text" href="onibus.html">ÔNIBUS</a></button>
-
+        <button type="button" class="HashButton button_slide slide_down"> <a id="text" href="aviao.html"><img class="icone" src="../img/airplane.svg" alt="Avião" title="Avião"></a></button>
+        <button type="button" class="HashButton button_slide slide_down"> <a id="text" href="carro.html"><img class="icone" src="../img/car.svg" alt="Carro" title="Carro"></a></button>
+        <button type="button" class="HashButton button_slide slide_down"> <a id="text" href="onibus.html"><img class="icone" src="../img/bus.svg" alt="Ônibus" title="Ônibus"></a></button>
     </div>
 </div>
 
-<!--GOOGLE MAPS -->
-<div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.04873857915!2d-46.875488621431295!3d-23.681531485507406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1623163731176!5m2!1spt-BR!2sbr" 
-    width="50%" height="550" style="border:0; float: left;" allowfullscreen="" loading="lazy"></iframe>
-    <div id="textMargin">
-        <h1>Ônibus</h1>
-        <h4>Viagens Nacionais e Internacionais</h4>
-        <p>
-           Você pode consultar nos sites das Três rodoviárias da cidade de São Paulo.
+<div class="topo">
+<h3>Chegando de Ônibus</h3>
+        <p class="descricao">
+            Na capital de São Paulo há três rodoviárias que trabalham com diferentes linhas de ônibus que viajam para inúmeras cidades do Brasil e até fora do país. São elas: Tietê, Jabaquara e Barra Funda.
         </p>
-        <br>
-
-        <h4>Rodoviária Tietê</h4>
-        <img src="../img/Map.svg"> Av. Cruzeiro do Sul, 1800 - Santana - CEP: 02030-000 – São Paulo – SP
-        <p> <a href = "https://rodoviariadotiete.com/deonibus">Clique aqui</a> para consultar mais informações no site oficial da Rodoviária do Tietê.
-
-        <br>
-        <h4>Rodoviária Barra Funda</h4>
-        <img src="../img/Map.svg"> Rua Aloysio Biondi s/n – Barra Funda – São Paulo – SP
-        <p> <a href = "https://www.rodoviariadabarrafunda.com/">Clique aqui</a> para consultar mais informações no site oficial da Rodoviária da Barra Funda.
-
-        <br>
-        <h4>Rodoviária Jabaquara</h4>
-        <img src="../img/Map.svg"> Rua dos Jequitibás, s/n – Jabaquara São Paulo – SP  – São Paulo – SP
-        <p> <a href = "https://www.rodoviariadojabaquara.com.br/">Clique aqui</a> para consultar mais informações no site oficial da Rodoviária do Jabaquara.
-
-    </div>
 </div>
 
+<div class="displayCard">
+    <div class="card">
+        <img class="img" src="https://cdn.discordapp.com/attachments/820060898210873348/852222279181664266/tiete.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Rodoviária do Tietê</h5>
+
+        <p>
+            <img src="../img/Map.svg"> Av. Cruzeiro do Sul, 1800 - Santana - CEP: 02030-000 – São Paulo – SP
+            <p><a href="https://rodoviariadotiete.com/deonibus">Clique aqui</a> para consultar mais informações no site oficial da Rodoviária do Tietê.</p>
+        </p>
+            
 
 
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="img" src="https://cdn.discordapp.com/attachments/820060898210873348/852221805963378688/Terminal-Barra-Funda.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Rodoviária da Barra Funda</h5>
+
+        <p>
+            <img src="../img/Map.svg"> Rua Aloysio Biondi s/n – Barra Funda – São Paulo – SP
+            <p> <a href="https://www.rodoviariadabarrafunda.com/">Clique aqui</a> para consultar mais informações no site oficial da Rodoviária da Barra Funda.</p>
+        </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="img" src="https://cdn.discordapp.com/attachments/820060898210873348/852195104029802556/IMG_0083.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Rodoviária Jabaquara</h5>
+
+        <p>
+            <img src="../img/Map.svg"> Rua dos Jequitibás, s/n – Jabaquara São Paulo – SP
+            <p> <a href="https://www.rodoviariadojabaquara.com.br/">Clique aqui</a> para consultar mais informações no site oficial da Rodoviária do Jabaquara.</p>
+        </p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
 

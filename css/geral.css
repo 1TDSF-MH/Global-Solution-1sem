@@ -1,4 +1,5 @@
 
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -50,6 +51,11 @@ topnav-father{
   float: right;
 }
 
+body{
+  background-color: rgba(126, 67, 126, 0.308);
+}
+
+
 /**Reset Bootstrap*/
 .dropdown-toggle::after {
     content: none;
@@ -72,7 +78,7 @@ topnav-father{
 
 #borderTema{
     width: 100%;
-    background-color: rgba(149, 149, 149, 0.192);
+    background-color: rgba(255, 255, 255, 0.292);
     margin-top: 20px;
     margin-bottom: 20px;
 }
