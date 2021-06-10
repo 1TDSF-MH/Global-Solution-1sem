@@ -18,7 +18,7 @@
     
 }
 
-.button_slide{
+#aviao{
     background-color: #7206d6;
 }
 .cor1{  
@@ -30,7 +30,7 @@
 /*BOTAO ICON*/
 #borderTe{
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.292);
+    background-color: #ffffff29;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -55,7 +55,7 @@
 }
 
 .card-body{
-    height: 56vh;
+    height: 45vh;
     background-color: #3b4044;
 }
 

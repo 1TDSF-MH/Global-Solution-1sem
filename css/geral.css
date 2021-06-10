@@ -106,6 +106,11 @@ topnav-father{
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
 }
+
+#select{
+  background-color: #7206d6;
+}
+
 .larg{
     width: 150px;
 }
