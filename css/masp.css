@@ -1,8 +1,42 @@
 /*COR DE FUNDO*/
 .cor1{  
-  height: 150vh;
+  height: 245vh;
   background-color: rgba(13, 20, 24);
   color: #d6d5d5;
+}
+
+/*ESTRELAS */
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
+
+
+/*TITULO*/
+
+.topo {
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  background-color: hsla(0, 0%, 100%, 0.048);
+}
+
+#masp{
+  padding: 20px;
+}
+#masp:hover{
+  height: 80px;
+  padding: 16px;
+  color: #a257e9;
+  border: 2px solid #a257e9;
 }
 
 
@@ -10,11 +44,7 @@
 
 
 .displayCard{
-    margin-left: 8%;
-}
-
-.center{
-    margin-left: 152px;
+  margin-left: 8%;
 }
 
 .card{
@@ -27,18 +57,19 @@
   text-align: justify;
 }
 
+.card-title{
+  margin-top: 20px;
+  color: rgb(238, 137, 43);
+}
+
 .card-body{
-  height: 40vh;
+  height: 130vh;
   width: 80vw;
   background-color: #3b4044;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
-.img{
-  height: 43vh; 
-
-}
 
 .imagem{
   height: 80vh;
@@ -49,12 +80,6 @@
 
 .descricao{
   font-size: 16px;
-}
-
-.container{
-  display: flex;
-  margin: auto;
-  width: 90%;  
 }
 
 .child_container{
