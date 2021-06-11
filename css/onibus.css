@@ -4,7 +4,7 @@
 .topo {
     text-align: center;
     margin-bottom: 0px;
-
+    background-color: rgba(13, 20, 24);
 }
 
 /*Titulo Chegar Em Sp*/
@@ -13,9 +13,20 @@
     height: 20px;
     padding-top: 15px;
     padding-bottom: 30px;
-}
-#title {
     font-family: 'Staatliches', cursive;
+}
+
+.cor1{  
+    background-color: rgba(13, 20, 24);
+    color: #d6d5d5;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+
+#borderTe{
+    width: 100%;
+    background-color: #ffffff29;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .descricao{
@@ -68,3 +79,4 @@ p a:hover{
     color: rgb(233, 120, 15);
     
 }
+

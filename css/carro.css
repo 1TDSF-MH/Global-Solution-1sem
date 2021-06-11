@@ -16,6 +16,21 @@
     font-family: 'Staatliches', cursive;
 }
 
+/*PÁGINA INTEIRA*/
+.cor1{  
+    background-color: rgba(13, 20, 24);
+    color: #d6d5d5;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+
+/*BOTÃO ÍCONE CARRO/AVIÃO/ÔNIBUS*/
+#borderTe{
+    width: 100%;
+    background-color: #ffffff29;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /*CARDS*/
 
 .displayCard{
@@ -35,7 +50,7 @@
     background-color: #3b4044;
     border: 2px solid #585858;
     border-radius: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 100px;
 }
 
 /*Google Maps*/
@@ -48,7 +63,7 @@
 
 /*Corpo Card*/
 .card-body{
-    height: 45vh;
+    height: 25vh;
     background-color: #3b4044;
 }
 
@@ -56,4 +71,12 @@
 .descricao{
     font-size: 16px;
     text-align: justify;
+    
+    display: flex;
+}
+
+@media(max-width: 720px){
+    .card-body{
+        height:auto;
+    }
 }

@@ -18,8 +18,13 @@
   margin-bottom: 10px;
 }
 
-#onibus{
+.bus {
+  background-color: rgba(13, 20, 24);
+}
+
+#bus{
   padding-bottom: 25px;
+  background-color: rgba(13, 20, 24);
 }
 
 /*Resposividade*/
