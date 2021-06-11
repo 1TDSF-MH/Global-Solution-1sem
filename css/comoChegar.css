@@ -16,6 +16,7 @@
 /*Nome De Cada Button*/
 .titulo-classe{
   margin-bottom: 10px;
+  font-family: 'Baloo Tammudu 2', cursive;
 }
 
 .bus {
@@ -25,6 +26,7 @@
 #bus{
   padding-bottom: 25px;
   background-color: rgba(13, 20, 24);
+  padding-top: 7px;
 }
 
 /*Resposividade*/

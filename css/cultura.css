@@ -54,6 +54,7 @@
 #titulo{
   text-decoration: none;
   color: rgb(165, 186, 214);
+  font-family: 'Baloo Tammudu 2', cursive;
 }
 
 #title {
@@ -69,6 +70,7 @@
 .topo{
   text-align: center;
   padding-top: 2%;
+  font-family: 'Baloo Tammudu 2', cursive;
 }
 
 @media(max-width: 720px){
