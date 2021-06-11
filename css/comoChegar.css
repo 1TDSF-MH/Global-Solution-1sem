@@ -58,6 +58,11 @@ topnav-father{
     flex-wrap: wrap-reverse;
 }
 
+.buttons{
+  background-color: rgba(13, 20, 24);
+  height: 100%
+}
+
 .button_sld {
   height: 150px;
   width: 350px; 
@@ -115,7 +120,7 @@ topnav-father{
   
 }
 .titulo-classe{
-  margin-top: -15px;
+
   margin-bottom: 10px;
 }
 

@@ -21,8 +21,8 @@
 #aviao{
     background-color: #7206d6;
 }
+
 .cor1{  
-  height: 146vh;
   background-color: rgba(13, 20, 24);
   color: #d6d5d5;
 }
@@ -41,7 +41,8 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    background-color: rgba(13, 20, 24);
  }
 
 .card{
@@ -78,6 +79,7 @@
     display: flex;
     margin: auto;
     width: 90%;  
+
 }
 
 .child_container{
@@ -86,11 +88,11 @@
     margin-top: 25px;
     display: inline-block;
     width: 400px;
+    height: 670px;
     background-color: #3b4044;
     border: 2px solid #585858;
     border-radius: 5px;
 }
-
 p a{
     text-decoration: none;
     color: rgb(165, 186, 214);

@@ -9,64 +9,29 @@
   color: #CCC;
 }
 
-.cor1{  
-  height: 120vh;
-  background-color: rgba(13, 20, 24);
-  color: #d6d5d5;
-}
-
 /*CARDS*/
-
 .displayCard{
   display: flex;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
-}
-
-.card{
-  width: 28rem; 
-  margin-left: 23px;  
-}
-
-.descricao{
-  font-size: 16px;
-  text-align: justify;
-}
-
-.card-body{
-  height: 10vh;
-  background-color: #3b4044;
-}
-
-.img{
-  height: 43vh; 
-
+  flex-wrap: wrap;
+  background-color: #0d1418;
 }
 
 .imagem{
-  height: 100%;
+  height: auto;
   width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
-.descricao{
-  font-size: 16px;
-}
-
-.container{
-  display: flex;
-  margin: auto;
-  width: 90%;  
-}
 
 .child_container{
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 25px;
   display: inline-block;
-  width: 400px;
+  width: 350px;
   background-color: #3b4044;
   border: 2px solid #585858;
   border-radius: 5px;
@@ -80,4 +45,9 @@
 #titulo:hover{
   text-decoration: none;
   color: rgb(83, 114, 155); 
+}
+
+.estrelas1{
+  font-size: 25px;
+  color: #FC0;
 }

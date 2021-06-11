@@ -34,11 +34,14 @@
 #aviao{
     background-color: #7206d6;
 }
+
+/*Cor de fundo*/
 .cor1{  
   height: 146vh;
   background-color: rgba(13, 20, 24);
   color: #d6d5d5;
 }
+
 
 /*BOTAO ICON*/
 #borderTe{
@@ -48,6 +51,7 @@
     margin-bottom: 20px;
 }
 
+
 /*CARDS*/
 
 .displayCard{
@@ -55,7 +59,9 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
- }
+    background-color: rgba(13, 20, 24);
+
+}
 
 .card{
     width: 28rem; 
